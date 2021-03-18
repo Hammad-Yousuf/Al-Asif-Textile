@@ -1,0 +1,92 @@
+:root{
+    --golden: #fa8f06 ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #d3d3d3;
+}
+header{
+    background-color: var(--golden);
+}
+.logo{
+    margin: 5px 15px;
+    width: 30vh;
+}
+
+.navbar-toggler{
+    margin-left: auto;
+}
+nav{
+    background: #000;
+    min-height: 5vh;
+
+    max-height: 25vh;
+}
+
+.navbar-container> .container{
+    margin-right: auto;
+    width: 50vh !important;
+}
+nav ul li a{
+    font-size: 1.2rem;
+    color: #d3d3d3 !important;
+    font-weight: 500 !important;
+}
+nav ul li a:hover{
+    color: var(--golden) !important;
+}
+/* Contact Us */
+
+#contact{
+    display: flex;
+    padding: 10vh;
+}
+.contact-container{
+    height: 70vh;
+}
+
+.contact-details{
+    height: 100%;
+    display: grid;
+    place-items: center start;
+    color: rgb(32, 32, 32);
+}
+.contact-head{
+    color: var(--golden);
+    font-size: 4rem;
+}
+.company-name-head{
+    font-size: 2rem;
+}
+.phone{
+    display: flex;
+    justify-content: space-around;
+}
+/* Footer */
+
+#footer{
+    background-color: #000;
+    color: #fff;
+}
+#footer p{
+    font-size: 1.2rem;
+}
+
+.social-icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.facebook:hover{
+    color: #005de9 ;
+}
+.twitter:hover{
+    color: aqua;
+}
+.instagram:hover{
+    color: rgb(255, 129, 25);
+}
