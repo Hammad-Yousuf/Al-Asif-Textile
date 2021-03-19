@@ -64,7 +64,7 @@ nav ul li a:hover{
     color: var(--golden);
     text-align: center;
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 15vh;
 }
@@ -148,7 +148,7 @@ nav ul li a:hover{
 }
 .product{
     border-radius: 5px;
-    width: 20rem;
+    width: 15rem;
     min-height: 60vh;
     overflow: hidden;
     background: #fff;
