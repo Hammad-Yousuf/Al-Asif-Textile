@@ -40,44 +40,63 @@ nav ul li a{
 nav ul li a:hover{
     color: var(--golden) !important;
 }
-/* Contact Us */
-
 #contact{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     padding: 10vh 0;
 }
-.contact-container{
-    height: 70vh;
+.contact-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.contact-card{
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(185, 184, 184);
+    border: 1px solid gray;
+    background: rgb(241, 241, 241);
+    width: 48vh;
+    min-height: 35vh;
+    padding: 1rem ;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5vh;
+}
+.icon-container{
+    display: grid;
+    place-items: center;
+    background: #fff;
+    width: 13vh;
+    height: 13vh;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    color: #ccc;
+    transition: background 250ms ease-in;
+    border: 2px solid var(--golden);
+}
+.contact-card:hover  .icon-container{
+    background: var(--golden);
+}
+.contact-card:hover .icon{
+    color: #fff;
+}
+.icon{
+    font-size: 1.5rem;
+    color: #000;
+    transition: color 250ms ease-in;
+
 }
 
-.contact-details{
-    height: 100%;
-    display: grid;
-    place-items: center start;
-    color: rgb(32, 32, 32);
+.open{
+    display: none
 }
-.contact-head{
-    color: var(--golden);
-    font-size: 4rem;
+.email-icon:hover .close{
+    display: none;
 }
-.company-name-head{
-    font-size: 2rem;
-}
-.phone{
-    display: flex;
-    justify-content: space-around;
+.email-icon:hover .open{
+    display: block;
 }
 .map{
-    width: 100%;
-    height: 80vh;
-}
-@media (max-width: 768px){
-    .map{
-        width: 20rem;
-        height: 50vh;
-    }
+    margin-bottom: 10vh;
 }
 /* Footer */
 
