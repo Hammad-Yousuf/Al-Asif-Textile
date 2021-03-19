@@ -149,7 +149,7 @@ nav ul li a:hover{
 .product{
     border-radius: 5px;
     width: 15rem;
-    min-height: 60vh;
+    min-height: 50vh;
     overflow: hidden;
     background: #fff;
     flex-direction: column;
